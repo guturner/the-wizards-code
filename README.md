@@ -1,2 +1,12 @@
+
 # the-wizards-code
-Learn how to code through a fantasy RPG!
+Fantasy RPG that teaches you how to program.
+
+# Intro
+Demonstrates knowledge of:
+
+- Angular
+- Kotlin
+- Micronaut
+- Phaser
+- TypeScript
