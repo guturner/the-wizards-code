@@ -3,4 +3,11 @@ node_modules/
 .idea
 .vscode/
 
+build/
+target/
+out/
+
 npm-debug.log
+
+.gradle
+*.iml

@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: org.wizcode
+---
+testFramework: spek
+sourceLanguage: kotlin
