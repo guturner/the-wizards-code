@@ -1,6 +1,19 @@
 import './App.css';
+import WebWorker from './workers/webworker';
+import worker from './workers/sample.worker';
 
 function App() {
+
+  const sampleWorker = new WebWorker(worker);
+
+  const runCode = () => {
+    const envelope = { 'from' : 'Guy', 'message': 'Hello world!' };
+    sampleWorker.postMessage(envelope);
+
+    sampleWorker.onmessage = (e) => {
+      console.log(e.data);
+    };
+  };
 
   return (
     <div>
@@ -11,10 +24,6 @@ function App() {
       <pre id="output"></pre>
     </div>
   );
-}
-
-function runCode() {
-  // TODO: Coming Soon!
 }
 
 export default App;
