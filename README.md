@@ -1,12 +1,13 @@
 
 # the-wizards-code
-Fantasy RPG that teaches you how to program.
+Learn how to code Python from your browser while becoming a great Acheronian sorceror!
 
 # Intro
 Demonstrates knowledge of:
 
-- Angular
 - Kotlin
 - Micronaut
-- Phaser
+- Python
+- React
+- [Skulpt](http://skulpt.org/)
 - TypeScript
