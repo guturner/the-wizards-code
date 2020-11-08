@@ -11,3 +11,4 @@ Demonstrates knowledge of:
 - React
 - [Skulpt](http://skulpt.org/)
 - TypeScript
+- Web Workers
